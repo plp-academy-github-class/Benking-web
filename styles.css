@@ -1,0 +1,84 @@
+/* Basic Reset */
+body, h1, h2, h3, p, table {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif; /* Setting a clean sans-serif font */
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark text for readability */
+    line-height: 1.6; /* Increased line height for better readability */
+    padding: 20px; /* Padding around the body */
+}
+
+/* Header Styling */
+header {
+    background: #007bff; /* Blue background */
+    color: white; /* White text */
+    padding: 10px 0; /* Vertical padding */
+    text-align: center; /* Center align the text */
+}
+
+/* Main Section Styling */
+h2, h3 {
+    margin-top: 20px; /* Space above headings */
+    margin-bottom: 10px; /* Space below headings */
+}
+
+/* Paragraph Styling */
+p {
+    margin-bottom: 15px; /* Space below paragraphs */
+}
+
+/* Form Styling */
+form {
+    background: white; /* White background for form */
+    padding: 20px; /* Padding inside the form */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Input Fields */
+input[type="text"], input[type="email"], input[type="number"] {
+    width: calc(100% - 20px); /* Full width minus padding */
+    padding: 10px; /* Padding inside the input */
+    margin: 10px 0; /* Space around inputs */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+/* Table Styling */
+table {
+    width: 100%; /* Full width table */
+    border-collapse: collapse; /* Remove space between cells */
+    margin-top: 20px; /* Space above the table */
+}
+
+th, td {
+    padding: 10px; /* Padding inside table cells */
+    text-align: left; /* Left align text */
+    border-bottom: 1px solid #ddd; /* Light gray bottom border */
+}
+
+th {
+    background-color: #007bff; /* Header background color */
+    color: white; /* Header text color */
+}
+
+/* Image Styling */
+img {
+    display: block; /* Ensures the image is a block element */
+    margin: 20px auto; /* Center the image */
+}
+
+/* Link Styling */
+a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
