@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--meta tag for display design-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Title of the webpage-->  
+        <title>Basic HTML Template</title> 
+        <!--meta tag for character set-->   
+        <meta charset="UTF-8">  
+        <link rel="stylesheet" href="styles.css">
+        
+        <style>
+            /* Internal CSS for styling */
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+                background-color: #f9f9f9;
+            }
+
+            header {
+                background-color: #4CAF50;
+                color: white;
+                padding: 10px 0;
+                text-align: center;
+            }
+
+            h1, h2, h3 {
+                color: #333;
+            }
+
+            p {
+                line-height: 1.6;
+                color: #555;
+            }
+
+            form {
+                margin: 20px 0;
+                padding: 15px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                background-color: #fff;
+            }
+
+            input[type="text"],
+            input[type="email"],
+            input[type="number"] {
+                width: 100%;
+                padding: 10px;
+                margin: 5px 0 15px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+
+            input[type="submit"],
+            input[type="reset"] {
+                background-color: #4CAF50;
+                color: white;
+                border: none;
+                padding: 10px 15px;
+                cursor: pointer;
+                border-radius: 5px;
+            }
+
+            input[type="submit"]:hover,
+            input[type="reset"]:hover {
+                background-color: #45a049;
+            }
+
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin: 20px 0;
+            }
+
+            th, td {
+                padding: 10px;
+                text-align: left;
+                border: 1px solid #ccc;
+            }
+
+            img {
+                display: block;
+                margin: 20px auto;
+            }
+        </style>
+    </head>
+    <body>
+        <!--Header Section-->
+        <header>
+            <h1>Welcome to Benking's Website</h1>
+        </header>
+        <!--Main heading-->
+        <h2>Introduction</h2>
+        <div>
+            <p>This is a basic HTML template, <br> demonstrating how to create a webpage with essential elements.<br> Below, you'll find a registration form, a table with user information, an image,<br> and a link to Google.</p>
+        </div>
+        <br>
+        <!--Registration form-->
+        <div>
+            <h3>Registration form</h3>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required style="border: 2px solid #4CAF50;"><br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required style="border: 2px solid #4CAF50;"><br>
+                <label for="phone">Phone Number:</label>
+                <input type="number" id="phone" name="phone" min="0" step="1" style="border: 2px solid #4CAF50;"><br>
+                <input type="submit" value="Register">
+                <input type="reset" value="Clear">
+            </form>
+        </div>
+        
+        <!--Table displaying common user information-->
+        <div>
+            <h3>User Information</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone Number</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!--Example user data-->
+                    <tr>
+                        <td>Benking Ugwu</td>
+                        <td>ugemeka@yahoo.com</td>
+                        <td>+234 8036028202</td>
+                    </tr>
+                    <tr>
+                        <td>Chief Eddy Lugaye</td>
+                        <td>eddy@powerlearnprojectafrica.org</td>
+                        <td>+254 2024081511</td>
+                    </tr>
+                </tbody>
+            </table>
+            <!--Image-->
+            <h3>My Picture</h3>
+            <img src="c:\Users\EMEKA BENKING UGWU\Desktop\HTML solution to assignt\my_Image.png" width="200" height="170" alt="My_image.png">
+            <!--External link to Google-->
+            <p>For more information, visit <a href="https://google.com" target="_blank">Google.com</a>.</p>  
+        </div>
+    </body>
+</html>
